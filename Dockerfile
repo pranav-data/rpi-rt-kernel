@@ -1,6 +1,6 @@
 # set PLATFORM32 to something not null if you're building for older platforms, i.e. Pi 1, Pi Zero, Pi Zero W and Pi CM1
 # do not define PLATFORM32 or set it to null if you're building for newer platforms, i.e. Pi 3, Pi 3+, Pi 4, Pi 400, Pi Zero 2 W, Pi CM3, Pi CM3+, Pi CM4
-FROM ubuntu:22.04
+FROM ubuntu:20.04
 
 ENV LINUX_KERNEL_VERSION=5.15
 ENV LINUX_KERNEL_BRANCH=rpi-${LINUX_KERNEL_VERSION}.y
